@@ -1,3 +1,9 @@
+
+/* 
+The item with the highest key is not only returned by the method getMax(), but also removed from the array. Call the method removeMax().
+Programming Project 2.2 from Robert Lafore - Data Structures and Algorithms in Java
+*/
+
 class ArrayHighClass {
 	private long[] a;
 	private int nElems;
@@ -63,16 +69,7 @@ class ArrayHighClass {
 		}
 		}
 	}
-	/*
-	 * when used instead of tempA[k] = tempA[k+1], or any other way - the array a is getting updated with the tempA values after sorting
-	 * so use tempA in delete method as well to avoid the issue
-	 * need to understand why is it happening
-	 * 
-	 * 
-	public void updatetempA(long[] temp){
-		tempA = temp;
-	}
-	*/
+	
 
 	// -------------------------------------
 	public void display() {
